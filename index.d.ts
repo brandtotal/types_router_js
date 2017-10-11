@@ -1,7 +1,13 @@
 import {} from "route-recognizer";
 declare class Transition {}
 
-interface IRouterOptions {}
+interface IRouterOptions {
+    // we don't support string based handler matching, but only passthru
+    // and the user must give us this kind of getHandler
+    getHandler<T extends IHandler<any, any, any>>(handler: T): T;
+    
+    updateURL(url: string): void;
+}
 
 declare class Router {
   constructor(options: IRouterOptions);
