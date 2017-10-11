@@ -1,0 +1,15 @@
+{
+    "name": "@types/router_js",
+    "version": "2.0.0-beta.1",
+    "description": "TypeScript definitions for router_js",
+    "license": "MIT",
+    "author": "",
+    "main": "",
+    "scripts": {},
+    "typings": "index.d.ts",
+    "dependencies": {},
+    "devDependencies": {
+        "route-recognizer": "^0.3.3"
+    },
+    "peerDependencies": {}
+}
