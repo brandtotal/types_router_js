@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/rsvp@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/@types/rsvp/-/rsvp-3.3.3.tgz#61a910a4e015121bd75f643c27a0bbaa28b633d4"
+
 route-recognizer@^0.3.3:
   version "0.3.3"
   resolved "https://registry.npmjs.org/route-recognizer/-/route-recognizer-0.3.3.tgz#1d365e27fa6995e091675f7dc940a8c00353bd29"
