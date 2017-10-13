@@ -13,5 +13,7 @@
         "route-recognizer": "^0.3.3",
         "typescript": "^2.5.3"
     },
-    "peerDependencies": {}
+    "peerDependencies": {
+        "@types/rsvp": "^3.3.3"
+    }
 }

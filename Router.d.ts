@@ -17,7 +17,11 @@ export default class Router<P extends IPossibleHandlers, H extends keyof P> {
   generate(name: H, ...parts: any[]): string;
   transitionTo(
     name: H,
-    props?: any /* here should be the props type from the handler. but how? IPossibleHandlers[P][H] ??? */,
+    ...props: any[] /* here should be the props type from the handler. but how? IPossibleHandlers[P][H] ??? */,
+  ): Transition;
+
+  transitionTo(
+    url: string
   ): Transition;
 }
 
